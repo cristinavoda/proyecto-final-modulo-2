@@ -1,7 +1,7 @@
-const HomeProducts = require();
+const Flowers= require();
 
-const getProducts = (req, res) => {
-  HomeProducts.getAll()
+const getFlowers = (req, res) => {
+ Flowers.getAll()
       if (data[0].length) {
         res.status(200).send({ data: data[0] });
       } else {
